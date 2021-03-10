@@ -1,0 +1,101 @@
+.Katherine
+{
+    font-family: 'Garamond';
+    color: #331804;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 50px 50px;
+    background-color: #fdf0e7;
+    /*border: 5px solid grey;*/
+}
+
+.Katherine #About_Me
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 90px;
+    width: 70%;
+    /*border: 3px solid brown;*/
+}
+
+.Katherine #Image
+{
+    display: flex;
+    padding: 30px;
+    width: 50%;
+    align-self:flex-start;
+    animation-name: KateFadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition: ease-out;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.Katherine h2
+{
+    text-align: center;
+}
+
+.Katherine .byline h3
+{
+    font-size: medium;
+    text-indent: 30px;
+}
+
+.Katherine p
+{
+    text-indent: 30px;
+}
+
+
+@keyframes KateFadeIn
+{
+    0% {opacity: 50%}
+    100% {opacity: 100%}
+}
+
+.body
+{
+    background-color: #6f0000;
+    margin: 0;
+}
+
+.navbar
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #331804;
+    background-color: #fdf0e76e;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar a
+{
+    color: #fdf0e7;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*border-left: 2px solid #fdf0e76e;*/
+}
+
+a+a
+{
+    border-left: 2px solid #fdf0e78a;
+}
+
+video
+{
+    width: 100%;
+}
