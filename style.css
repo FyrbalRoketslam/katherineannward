@@ -1,28 +1,40 @@
 .Katherine
 {
+    display: flex;
     font-family: 'Garamond';
     color: #331804;
-    display: flex;
-    flex-direction: row;
     margin: 50px 50px 50px 50px;
     background-color: #fdf0e7;
-    /*border: 5px solid grey;*/
+    border: 5px solid grey;
 }
 
-.Katherine #About_Me
+#About_Me
+{
+    display: flex;
+    padding: 40px 40px 40px 90px;
+    border: 3px solid brown;
+}
+
+#column
 {
     display: flex;
     flex-direction: column;
-    padding: 40px 40px 40px 90px;
-    width: 70%;
-    /*border: 3px solid brown;*/
+}
+
+#row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
 .Katherine #Image
 {
     display: flex;
-    padding: 30px;
-    width: 50%;
+    margin: 40px 40px 40px 90px;
+    width: 100%;
+    height: auto;
     align-self:flex-start;
     animation-name: KateFadeIn;
     animation-duration: 1s;
@@ -30,9 +42,15 @@
     transition: ease-out;
 }
 
+#video
+{
+    display: flex;
+    width: 100%;
+}
+
 img
 {
-    max-width: 100%;
+    width: 100%;
 }
 
 .Katherine h2
@@ -40,7 +58,7 @@ img
     text-align: center;
 }
 
-.Katherine .byline h3
+.Katherine #byline
 {
     font-size: medium;
     text-indent: 30px;
