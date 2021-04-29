@@ -11,7 +11,7 @@
 #About_Me
 {
     display: flex;
-    padding: 40px 40px 40px 90px;
+    padding: 40px 40px 40px 40px;
     border: 3px solid brown;
 }
 
